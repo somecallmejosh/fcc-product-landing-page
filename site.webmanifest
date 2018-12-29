@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Free Code Camp Product Layout Page",
+    "short_name": "fcc product page",
     "icons": [{
             "src": "/images/favicons/android-chrome-192x192.png",
             "sizes": "192x192",
