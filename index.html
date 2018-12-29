@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Free Code Camp Product Landing Page">
+    <title>Drumset Landing Page</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#616182">
+    <meta name="theme-color" content="#616182">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="branding">
+            <img id="header-img" src="images/logo.svg" alt="Logo">
+            <p>This is not a real website</p>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#specials">Specials</a></li>
+                <li><a class="nav-link" href="#form">Newsletter</a></li>
+                <li><a class="nav-link" href="#info">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Shop Gretsch Drums Online (Sample)</h1>
+        <div class="responsive-video">
+            <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/ea2RNgWCbFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <h2 id="specials"><span>These specials are moving fast!</span></h2>
+        <div class="grid">
+            <div class="card">
+                <div class="card-image"><img src="https://res.cloudinary.com/dwjulenau/image/upload/c_fit,h_214,w_309/v1546041687/FCC/gretsch-catalina.png" alt="Gretsch Catalina Kit"></div>
+                <div class="card-content">
+                    <h3>Gretsch Catalina</h3>
+                    <p class="price">$999</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis soluta nemo dolor autem assumenda. </p>
+                    <a href="#" class="btn">More Info</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"><img src="https://res.cloudinary.com/dwjulenau/image/upload/c_fit,h_214,w_309/v1546041687/FCC/gretsch-brooklyn.png" alt="Gretsch Brooklyn Kit"></div>
+                <div class="card-content">
+                    <h3>Gretsch Brooklyn</h3>
+                    <p class="price">$1400</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis soluta nemo dolor autem assumenda. </p>
+                    <a href="#" class="btn">More Info</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image"><img src="https://res.cloudinary.com/dwjulenau/image/upload/c_fit,h_214,w_309/v1546041687/FCC/gretsch-USA.png" alt="Gretsch Brooklyn Kit"></div>
+                <div class="card-content">
+                    <h3>Gretsch USA</h3>
+                    <p class="price">$2500</p>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis soluta nemo dolor autem assumenda. </p>
+                    <a href="#" class="btn">More Info</a>
+                </div>
+
+            </div>
+        </div>
+        <form action="email-submit.html" id="form">
+            <div class="form-group">
+                <div class="form-label">
+                    <label for="email" id="email-label">Sign Up For Our Email Specials!</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-field">
+                    <input type="email" name="email" required aria-required="true" id="email" placeholder="myemail@email.com">
+                </div>
+                <input type="submit" id="submit" value="Submit">
+            </div>
+        </form>
+        <div id="section-one"></div>
+        <div id="section-two"></div>
+        <div id="section-three"></div>
+    </main>
+    <footer id="info">
+        <p>DISCLAIMER: This site is for training purposes only, and is in no way affiliated with Gretsch drums. The prices listed about are purely random. I just happen to be a fan (and a player) of Gretsch drums, and decided to use them for a class on developing
+            product landing pages.</p>
+    </footer>
+</body>
+
+</html>
